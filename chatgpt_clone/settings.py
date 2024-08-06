@@ -98,4 +98,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "chat/static")]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CSRF settings for API
-CSRF_TRUSTED_ORIGINS = ['http://localhost:8000']
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:8000',
+    'https://chatgpt-clone-one-eta.vercel.app',
+]
